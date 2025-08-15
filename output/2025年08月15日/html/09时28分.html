@@ -1,0 +1,135 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 112</p><p>生成时间: 2025-08-15 09:28:04</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国</td>
+                    <td class="count">9</td>
+                    <td class="percentage">8.04%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2115943?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月15日电，富时中国A50指数期货在上一交易日夜盘收跌0.67%的基础上高开，现跌0.65%。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=C%E7%BD%97%E6%8A%B5%E8%BE%BE%E4%B8%AD%E5%9B%BD%E9%A6%99%E6%B8%AF" target="_blank" class="news-link">C罗抵达中国香港</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E4%B8%AD%E5%9B%BD%E5%AE%98%E5%91%98%E5%8F%96%E6%B6%88%E8%AE%BF%E6%97%A5%E8%A1%8C%E7%A8%8B" target="_blank" class="news-link">外交部回应中国官员取消访日行程</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8lonbBus7GB" target="_blank" class="news-link">核查：日本北海道异常高温，怪到了中国太阳能发电站头上？</a> [8] <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7538583155935022618/" target="_blank" class="news-link">中国男篮能进亚洲杯决赛吗</a> [12] <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7538103000082939914/" target="_blank" class="news-link">郭士强：这支中国男篮值得尊重</a> [13] <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7538586624532155967/" target="_blank" class="news-link">媒体人：中国男篮终极答案仍是归化</a> [18] <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%A4%9A%E6%83%B3%E5%B8%A6%E4%BD%A0%E7%9C%8B%E7%9C%8B%E8%BF%99%E5%A4%A7%E7%BE%8E%E4%B8%AD%E5%9B%BD%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26filter_type%3Drealtimehot%26c_type%3D31%26lcate%3D5001%26cate%3D5001%26dgr%3D0%26realpos%3D26%26stream_entry_id%3D31%26q%3D%2523%25E5%25A4%259A%25E6%2583%25B3%25E5%25B8%25A6%25E4%25BD%25A0%25E7%259C%258B%25E7%259C%258B%25E8%25BF%2599%25E5%25A4%25A7%25E7%25BE%258E%25E4%25B8%25AD%25E5%259B%25BD%2523%26band_rank%3D26%26flag%3D1%26pos%3D26%26display_time%3D1755221195%26pre_seqid%3D1755221195076050224677" target="_blank" class="news-link">多想带你看看这大美中国</a> [26] <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%B6%E9%9A%9410%E5%B9%B4%E4%B8%AD%E5%9B%BD%E7%94%B7%E7%AF%AE%E9%87%8D%E8%BF%94%E4%BA%9A%E6%B4%B2%E6%9D%AF%E5%9B%9B%E5%BC%BA" target="_blank" class="news-link">时隔10年中国男篮重返亚洲杯四强</a> [27] <font color='grey'>- 09时28分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">机器人</td>
+                    <td class="count">3</td>
+                    <td class="percentage">2.68%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2115911" target="_blank" class="news-link">世界人形机器人运动会来了！足球、搏击、舞蹈等多方面将展开比拼</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8loruCa5UVR" target="_blank" class="news-link">机器人泡茶和无人智驾，台湾网红“馆长”体验深圳黑科技</a> [12] <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%98%AF%E5%90%A6%E6%99%BA%E5%95%86%E7%A8%8E" target="_blank" class="news-link">人形机器人是否智商税</a> [27] <font color='grey'>- 09时28分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">胖东来 于东来</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.89%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%83%96%E4%B8%9C%E6%9D%A5%E5%9B%9E%E5%BA%94%E5%B0%8F%E6%97%B6%E5%B7%A5%E7%A9%BF%E6%A0%87%E8%AF%86%E6%9C%8D" target="_blank" class="news-link">胖东来回应小时工穿标识服</a> [18] <font color='grey'>- 09时28分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">稚晖君 智元</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.89%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2115789?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【九点特供】业内首个！智元机器人推出机器人世界模型平台，机构称AI大模型与人形机器人的融合是产业趋势；全球首款8K全景无人机发布，“会飞的全景相机”有望带动相关光学模组市场规模加速扩张</a> [16] <font color='grey'>- 09时28分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.89%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2115799" target="_blank" class="news-link">段永平最新美股13F表：二季度乱中加仓谷歌、英伟达、苹果</a> [10] <font color='grey'>- 09时28分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.89%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3753360" target="_blank" class="news-link">巴菲特Q2重启苹果抛售，再减持美银，新进联合健康，纽柯钢铁等“神秘”持仓揭晓</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时28分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.89%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2115686?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【盘中宝·数据】AI算力升级驱动液冷需求增长，最新整理液冷产业链价值量占比、市占率等（附表）</a> [10] <font color='grey'>- 09时28分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">美国</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.89%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2115922?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美国移民与海关执法局大楼发现装有白色粉末信封</a> [9] <font color='grey'>- 09时28分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
