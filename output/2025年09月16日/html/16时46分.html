@@ -1,0 +1,111 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 40</p><p>生成时间: 2025-09-16 16:46:31</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">科技</td>
+                    <td class="count">3</td>
+                    <td class="percentage">7.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2146566?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">龙虎榜|汉威科技今日20cm涨停 4家机构专用席位净买入1.79亿元</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时46分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2146567?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中船科技：签订约4000万美元/年绿色甲醇销售合同 预计在公司风电制甲醇项目投产后开始供货</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时46分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2146542?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">香港恒生指数收跌0.03% 恒生科技指数涨0.56%</a> [17] <font color='grey'>- 16时46分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">5.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2146564?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">露笑科技：控股子公司拟推出家庭具身AI服务机器人 力争在26-28年在美欧市场各类产品累计销售不少于100万台</a> [7] <font color='grey'>- 16时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3755625" target="_blank" class="news-link">花旗大幅上调胜宏目标价至447元：AI-PCB超级周期加速，供需紧张将持续至2026年后</a> [10] <font color='grey'>- 16时46分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2146540?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月16日电，特斯拉盘前上涨2.63%，此前一个交易日，其股价上涨了3.56%。</a> [18] <font color='grey'>- 16时46分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">手机</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BB%A5%E6%80%BB%E7%90%86%EF%BC%9A%E6%9C%89%E6%89%8B%E6%9C%BA%E5%B0%B1%E7%AD%89%E4%BA%8E%E6%8F%A1%E7%9D%80%E2%80%9C%E4%BB%A5%E8%89%B2%E5%88%97%E2%80%9D" target="_blank" class="news-link">以总理：有手机就等于握着“以色列”</a> [18] <font color='grey'>- 16时46分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">国产 中国</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7550243148555996726/" target="_blank" class="news-link">外交部回应菲船只故意冲撞中国船只</a> [8] <font color='grey'>- 16时46分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
