@@ -1,0 +1,111 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 46</p><p>生成时间: 2025-09-24 21:45:40</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国</td>
+                    <td class="count">3</td>
+                    <td class="percentage">6.52%</td>
+                    <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31674067" target="_blank" class="news-link">泽连斯基称中国必须“迫使俄罗斯停止侵略”，外交部回应</a> [20] <font color='grey'>- 21时45分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/647299661" target="_blank" class="news-link">中国的第四艘航母，会是核动力航母吗？</a> [20] <font color='grey'>- 21时45分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7553610682575359529/" target="_blank" class="news-link">中国与波兰经济博弈走向何方</a> [26] <font color='grey'>- 21时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">机器人</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.35%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2155042?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">新时达：公司人形机器人已顺利在海尔重庆冰箱工厂现场产线部署完毕</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时45分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2155023" target="_blank" class="news-link">“机器人之眼”需求井喷 激光雷达厂商抢滩布局</a> [11] <font color='grey'>- 21时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">胖东来 于东来</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.17%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%83%96%E4%B8%9C%E6%9D%A5%E9%9D%A2%E8%AF%9530%E5%90%8D%E5%88%91%E9%87%8A%E4%BA%BA%E5%91%98%EF%BC%9A%E5%85%A8%E9%83%A8%E5%BD%95%E7%94%A8" target="_blank" class="news-link">胖东来面试30名刑释人员：全部录用</a> [24] <font color='grey'>- 21时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.17%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2154558?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【财联社早知道】阿里云发布全新一代磐久128超节点AI服务器，机构称ASIC芯片有望在AI服务器领域释放更大市场潜力，这家公司拥有AI芯片定制平台解决方案；英伟达内部正在孵化Robotaxi</a> [7] <font color='grey'>- 21时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">科技</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.17%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2155038?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月24日电，迈威尔科技签署10亿美元加速股票回购协议。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时45分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
